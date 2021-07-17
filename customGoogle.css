@@ -1,0 +1,90 @@
+body {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.topBar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+div.tBR {
+    display: inline-block;
+    flex-grow: 1;
+    height: 48px;
+}
+
+div.topBarRight1 {
+    min-width: auto;
+    height: 48px;
+    position: relative;
+    
+}
+
+div.topBarRight2{
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 0 4px;
+    justify-content: flex-end;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+}
+
+p.one:hover {
+    color: blueviolet;
+}
+
+a.leftTop:first-of-type {
+    margin-left: 15px;
+}
+
+a.leftTop {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+a.rightTop
+{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+
+}
+a.leftTop:link {
+    text-decoration: none;
+}
+
+a.rightTop:link {
+    text-decoration: none;
+}
+
+a.leftTop:hover {
+    text-decoration: underline;
+}
+
+a.rightTop:hover {
+    text-decoration: underline;
+}
+
+a.leftTop:visited {
+    color: #222;
+}
+
+a.rightTop:visited {
+    color: #222;
+}
