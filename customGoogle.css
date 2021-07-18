@@ -44,6 +44,10 @@ div.topBarRight2{
     display: flex;
 }
 
+div.topBarRight3 {
+    color: #222;
+}
+
 p.one:hover {
     color: blueviolet;
 }
@@ -88,3 +92,16 @@ a.leftTop:visited {
 a.rightTop:visited {
     color: #222;
 }
+
+svg.dots {
+    height: 24px;
+    width: 24px;
+}
+
+a.dotsLink {
+    height: 40px;
+    width: 40px;
+    display: inline;
+    padding: 8px;
+}
+
