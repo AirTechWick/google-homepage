@@ -105,3 +105,13 @@ a.dotsLink {
     padding: 8px;
 }
 
+a.monkeyLink {
+    height: 40px;
+    width: 40px;
+    display: inline;
+    padding: 8px;
+}
+
+img.monkeySvg {
+    width: 32px;;
+}
