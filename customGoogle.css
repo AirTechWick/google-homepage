@@ -58,9 +58,31 @@ div.middleBar {
     
 }
 
+div.bottomBar {
+    padding: 20px;
+    margin: 0 auto;
+    max-height: 160px;
+    max-width: 584px;
+    flex-shrink: 0;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
 div.googleBox{
     max-height: 94px;
     margin-top: auto;
+}
+
+div.searchDiv {
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    padding-top: 6px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 34px;
+    flex: 100%;
 }
 
 p.one:hover {
@@ -139,4 +161,19 @@ a.monkeyLink {
 
 img.monkeySvg {
     width: 24px;;
+}
+
+input.searchInput {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    word-wrap: break-word;
+    flex: 100%;
+    max-width: 90%;
+    margin-left: 50px;
+    border: none;
+}
+
+input.searchInput:focus-visible {
+    outline: none;
 }
