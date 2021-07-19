@@ -1,4 +1,4 @@
-body {
+body, input {
     background-color: #fff;
     font-size: 14px;
     font-family: arial, sans-serif;
@@ -9,6 +9,10 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+input {
+    font-size: 16px;
 }
 
 div.topBar {
@@ -133,6 +137,7 @@ a.rightTop:visited {
 svg.dots {
     height: 24px;
     width: 24px;
+    fill: #5f6368
 }
 
 a.dotsLink:hover {
@@ -170,10 +175,20 @@ input.searchInput {
     word-wrap: break-word;
     flex: 100%;
     max-width: 90%;
-    margin-left: 50px;
+    max-height: 95%;
+    margin-left: 5px;
+    margin-bottom: 5px;
     border: none;
 }
 
 input.searchInput:focus-visible {
     outline: none;
+}
+
+svg.searchIcon {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 4px;
+    fill: #9aa0a6;
 }
