@@ -75,6 +75,7 @@ div.bottomBar {
     flex-shrink: 0;
     flex: 1;
     flex-wrap: wrap;
+    display: inline;
 }
 
 div.googleBox{
@@ -92,6 +93,11 @@ div.searchDiv {
     border-radius: 24px;
     height: 38px;
     flex: 100%;
+}
+
+div.twoBoxes {
+    height: 70px;
+    padding-top: 18px;
 }
 
 p.one:hover {
@@ -188,6 +194,24 @@ input.searchInput {
 
 input.searchInput:focus-visible {
     outline: none;
+}
+
+input.submitButtons {
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+}
+
+input.submitButtons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 svg.searchIcon {
