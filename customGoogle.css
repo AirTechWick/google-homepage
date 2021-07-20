@@ -68,7 +68,7 @@ div.middleBar {
 }
 
 div.bottomBar {
-    padding: 120px;
+    padding-top: 120px;
     margin: 0 auto;
     max-height: 160px;
     max-width: 584px;
@@ -84,7 +84,7 @@ div.googleBox{
 }
 
 div.searchDiv {
-    width: auto;
+    width: 482px;
     max-width: 584px;
     position: relative;
     padding-top: 6px;
@@ -98,6 +98,18 @@ div.searchDiv {
 div.twoBoxes {
     height: 70px;
     padding-top: 18px;
+}
+
+div.emptySpace {
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+div.wholePage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 p.one:hover {
