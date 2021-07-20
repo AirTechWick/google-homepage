@@ -11,6 +11,11 @@ body, html {
     padding: 0;
 }
 
+a {
+    color: #222;
+}
+
+
 input {
     font-size: 16px;
 }
@@ -63,7 +68,7 @@ div.middleBar {
 }
 
 div.bottomBar {
-    padding: 20px;
+    padding: 120px;
     margin: 0 auto;
     max-height: 160px;
     max-width: 584px;
@@ -85,7 +90,7 @@ div.searchDiv {
     display: flex;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    height: 34px;
+    height: 38px;
     flex: 100%;
 }
 
@@ -189,6 +194,6 @@ svg.searchIcon {
     height: 20px;
     width: 20px;
     margin-left: 15px;
-    margin-top: 4px;
+    margin-top: 6px;
     fill: #9aa0a6;
 }
