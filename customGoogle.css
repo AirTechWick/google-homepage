@@ -112,6 +112,13 @@ div.wholePage {
     height: 100%;
 }
 
+div.lastBox {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    height: 93px;
+}
+
 p.one:hover {
     color: blueviolet;
 }
