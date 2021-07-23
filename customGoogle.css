@@ -81,6 +81,7 @@ div.bottomBar {
 div.googleBox{
     max-height: 94px;
     margin-top: auto;
+    padding-top: 10px;
 }
 
 div.searchDiv {
@@ -116,7 +117,8 @@ div.lastBox {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    height: 93px;
+    height: 139px;
+    outline: 1px solid red;
 }
 
 p.one:hover {
@@ -192,6 +194,16 @@ a.monkeyLink {
     display: inline;
     padding: 8px;
     border-radius: 50%;
+}
+
+a.lastBoxText {
+    color: #70757a;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a.lastBoxText:hover {
+    text-decoration: underline;
 }
 
 img.monkeySvg {
