@@ -96,6 +96,11 @@ div.searchDiv {
     flex: 100%;
 }
 
+div.searchDiv:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
 div.twoBoxes {
     height: 70px;
     padding-top: 18px;
@@ -233,6 +238,10 @@ a.lastBoxText2 {
 }
 
 a.lastBoxText:hover {
+    text-decoration: underline;
+}
+
+a.lastBoxText2:hover {
     text-decoration: underline;
 }
 
